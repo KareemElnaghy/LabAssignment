@@ -19,7 +19,6 @@ MainWindow::MainWindow(QWidget *parent)
     idx = -1;
     sorted = false;
     arrayGenerated = false;
-    targetValue = false;
 
 }
 
