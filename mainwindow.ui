@@ -69,7 +69,7 @@
    <widget class="QPushButton" name="generate_button">
     <property name="geometry">
      <rect>
-      <x>49</x>
+      <x>50</x>
       <y>520</y>
       <width>151</width>
       <height>32</height>
@@ -77,16 +77,6 @@
     </property>
     <property name="text">
      <string>Generate Dataset</string>
-    </property>
-   </widget>
-   <widget class="QTextEdit" name="size_Text">
-    <property name="geometry">
-     <rect>
-      <x>50</x>
-      <y>490</y>
-      <width>151</width>
-      <height>21</height>
-     </rect>
     </property>
    </widget>
    <widget class="QLabel" name="status_Label">
@@ -99,7 +89,7 @@
      </rect>
     </property>
     <property name="text">
-     <string>Unsorted Array</string>
+     <string>Array Status</string>
     </property>
    </widget>
    <widget class="QListWidget" name="listWidget">
@@ -143,7 +133,7 @@
      <rect>
       <x>560</x>
       <y>190</y>
-      <width>151</width>
+      <width>221</width>
       <height>20</height>
      </rect>
     </property>
@@ -156,7 +146,7 @@
      <rect>
       <x>560</x>
       <y>230</y>
-      <width>151</width>
+      <width>221</width>
       <height>20</height>
      </rect>
     </property>
@@ -169,22 +159,12 @@
      <rect>
       <x>560</x>
       <y>260</y>
-      <width>151</width>
+      <width>211</width>
       <height>20</height>
      </rect>
     </property>
     <property name="text">
      <string>Using: </string>
-    </property>
-   </widget>
-   <widget class="QTextEdit" name="search_TextEdit">
-    <property name="geometry">
-     <rect>
-      <x>550</x>
-      <y>320</y>
-      <width>201</width>
-      <height>41</height>
-     </rect>
     </property>
    </widget>
    <widget class="QPushButton" name="findIt_button">
@@ -200,6 +180,52 @@
      <string>Find it!</string>
     </property>
    </widget>
+   <widget class="QLineEdit" name="size_line_edit">
+    <property name="geometry">
+     <rect>
+      <x>60</x>
+      <y>490</y>
+      <width>131</width>
+      <height>31</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="targetVal_text_edit">
+    <property name="geometry">
+     <rect>
+      <x>550</x>
+      <y>320</y>
+      <width>201</width>
+      <height>41</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLabel" name="error_label">
+    <property name="geometry">
+     <rect>
+      <x>260</x>
+      <y>540</y>
+      <width>481</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="exit_Button">
+    <property name="geometry">
+     <rect>
+      <x>570</x>
+      <y>510</y>
+      <width>151</width>
+      <height>32</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Exit</string>
+    </property>
+   </widget>
   </widget>
   <widget class="QMenuBar" name="menubar">
    <property name="geometry">
@@ -207,7 +233,7 @@
      <x>0</x>
      <y>0</y>
      <width>800</width>
-     <height>22</height>
+     <height>24</height>
     </rect>
    </property>
   </widget>
