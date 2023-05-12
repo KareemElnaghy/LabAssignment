@@ -51,6 +51,7 @@ private:
    int idx;
    bool sorted;
    bool arrayGenerated;
+   bool targetValue;
 
 };
 #endif // MAINWINDOW_H

@@ -19,6 +19,7 @@ MainWindow::MainWindow(QWidget *parent)
     idx = -1;
     sorted = false;
     arrayGenerated = false;
+    targetValue = false;
 
 }
 
@@ -243,9 +244,9 @@ void MainWindow::on_findIt_button_clicked()
         return;
     }
 
-    if(ui->targetVal_text_edit->text() == "")
+    if(ui->targetVal_text_edit->text() == "" || ui->targetVal_text_edit->text().toInt() <= 0)
     {
-        ui->error_label->setText("Enter a Value to Search for!!");
+        ui->error_label->setText("Enter a Valid Value to Search for!!");
         return;
     }
 
